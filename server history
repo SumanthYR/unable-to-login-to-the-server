@@ -1,0 +1,100 @@
+825  vim /home/ubuntu/.ssh/authorized_keys
+ 1826  id ubuntu
+ 1827  ls -la /root/
+ 1828  ls -la /root/.ssh/
+ 1829  ls -la /home/ubuntu/
+ 1830  ls -la /home/ubuntu/.ssh/
+ 1831  ls -la /root/.ssh/
+ 1832  cd /home/ubuntu/
+ 1833  ls -lrth
+ 1834  ls -a
+ 1835  cd .ssh/
+ 1836  ls -lrth
+ 1837  ls -la
+ 1838  rm .ssh/
+ 1839  rmdir .ssh/
+ 1840  rm -f .ssh/
+ 1841  rmdir -f .ssh/
+ 1842  cd  .ssh/
+ 1843  ls -lrth
+ 1844  rm -rf *
+ 1845  cd ..
+ 1846  ls -lrth
+ 1847  ls -la
+ 1848  rmdir .ssh/
+ 1849  ls -la
+ 1850  chmod 644 known_hosts
+ 1851  ls -la
+ 1852  df -h
+ 1853  lsblk
+ 1854  sudo mkfs -t xfs xvdf1
+ 1855  mkfs -t xfs xvdf1
+ 1856  df -h
+ 1857  clear
+ 1858  lsblk
+ 1859  mount -t xfs /dev/xvdf1
+ 1860  ls blk
+ 1861  lsblk
+ 1862  mount -t xfs /dev/xvdf
+ 1863  mount /dev/xvdf
+ 1864  sudo mkdir /test_root
+ 1865  mount mount /dev/xvdf /test_root/
+ 1866  mount /dev/xvdf /test_root/
+ 1867  mount -t /dev/xvdf /test_root/
+ 1868  mount /dev/xvdf /test_root/
+ 1869  lsblk -f
+ 1870  mount -t ext4 /dev/xvdf /test_root/
+ 1871  mount -t ext4 /dev/xvdf /test_root
+ 1872  clear
+ 1873  lsblk
+ 1874  sudo mkfs -t ext4 /dev/xvdf
+ 1875  mount -t ext4 /dev/xvdf /test_root
+ 1876  fdisk -l
+ 1877  clear
+ 1878  lsblk
+ 1879  mount -t ext4 /dev/xvdf /test_root
+ 1880  mount -t ext4 /dev/xvdf1 /test_root
+ 1881  df -h
+ 1882  cd /test_root/
+ 1883  ls -lrth
+ 1884  cd /etc/
+ 1885  ls -lrth
+ 1886  cd
+ 1887  clear
+ 1888  df -h
+ 1889  cd /test_root/
+ 1890  cd etc/
+ 1891  cd ssh/
+ 1892  ls -lrth
+ 1893  diff sshd_config /etc/ssh/sshd_config
+ 1894  clear
+ 1895  cd ..
+ 1896  cp -rf ssh /etc/
+ 1897  cd ..
+ 1898  cd home/ubuntu/
+ 1899  ls -la
+ 1900  cd .ssh/
+ 1901  ls -la
+ 1902  cd
+ 1903  cp -rfp /test_root/home/ubuntu/ /home/ubuntu/
+ 1904  df -h
+ 1905  cp -rfp /test_root/home/ubuntu/.ssh/ /home/ubuntu/.ssh/
+ 1906  cd .ssh/
+ 1907  ls -lrth
+ 1908  vim authorized_keys
+ 1909  cd /etc/selinux/
+ 1910  ls -lrth
+ 1911  vim semanage.conf
+ 1912  cd /home/
+ 1913  ls -lrth
+ 1914  lsblk
+ 1915  cd /test_root/
+ 1916  cd /home/
+ 1917  cd ..
+ 1918  cd /test_root/
+ 1919  cd home/
+ 1920  ls -lrth
+ 1921  chmod -R 755 /home/ubuntu/
+ 1922  ls -lrth
+ 1923  history
+root@ip-172-31-1-102:~#
